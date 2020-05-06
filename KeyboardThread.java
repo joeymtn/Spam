@@ -6,7 +6,7 @@
  * @author 
  * @version 1.00 2018/12/12
  */
- //Joey Version
+
 
 //import statements
 import java.awt.AWTException;
@@ -160,7 +160,7 @@ public class KeyboardThread extends Thread
    		KeyboardThread test = new KeyboardThread();
    		
    		test.retrieveTextFileInput();
-   		test.setText("HEY EVAN YOU'RE A NOOB!");
+   		test.setText("hey!");
    	
    		for(String display : KeyboardThread.notepadDatabase)
    		{
